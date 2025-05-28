@@ -10,6 +10,7 @@ class SentimentAgent:
         #PRE OPTIMIZATION
         # "You are a financial sentiment expert. Based on the following stock news headlines,
         # "respond with one word only: POSITIVE, NEUTRAL, or NEGATIVE."
+        
         "You are a stock sentiment analysis expert.\n\n"
         "Your job is to analyze news headlines for a specific stock (e.g., SPY) "
         "and determine the overall sentiment affecting short-term price movement (1–3 days).\n\n"

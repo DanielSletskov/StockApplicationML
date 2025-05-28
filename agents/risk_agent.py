@@ -8,8 +8,9 @@ class RiskAgent:
     llm_config=get_llm_config("risk"),
     system_message=(
         #PRE OPTIMIZATION
-        # "You are a portfolio risk expert. Given today's market context, respond with one word only "
-        # "about trading risk: LOW, MEDIUM, or HIGH."
+        #"You are a portfolio risk expert. Given today's market context, respond with one word only "
+        #"about trading risk: LOW, MEDIUM, or HIGH."
+
         "You are a portfolio risk manager. Assess whether today's market conditions are safe for trading SPY.\n\n"
         "You are given the current date, and must decide the risk level based on:\n"
         "- Overall volatility (e.g., VIX spikes, earnings week)\n"

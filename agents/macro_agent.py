@@ -9,8 +9,9 @@ class MacroNewsAgent:
     system_message=(
         #pre OPTIMIZATION
         #"You are a macroeconomic news analyst. Examine these headlines for inflation, interest rate, "
-        # "or geopolitical risks. Respond with one word only: POSITIVE, NEUTRAL, or NEGATIVE."
-        #
+        #"or geopolitical risks. Respond with one word only: POSITIVE, NEUTRAL, or NEGATIVE."
+        
+
         "You are a macroeconomic risk analyst. Analyze news headlines for broad economic or geopolitical concerns "
         "that may affect all stocks, including SPY.\n\n"
         "Use the following criteria:\n"
