@@ -7,10 +7,10 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def get_llm_config(agent_type="default"):
     base_config = {
-        "temperature": 0.2,
+        "temperature": 0.0,
         "config_list": [
             {
-                "model": "gpt-4",
+                "model": "gpt-4.1",
                 "api_key": OPENAI_API_KEY
             }
         ]
