@@ -1,4 +1,4 @@
-### Project Description
+## Project Description
 This is my final LLM project for the first semester of my bachelor education.
 
 ## What is the project goal.  
